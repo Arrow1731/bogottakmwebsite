@@ -5,6 +5,10 @@ import { BookOpen, Calendar, Clock, MapPin, Phone, Mail, Users, Award, Wifi } fr
 import { useLanguage } from "../contexts/LanguageContext"
 import Navigation from "../components/Navigation"
 import Footer from "../components/Footer"
+import DirektorImg from "../assets/Direktor_Img.jpg"
+import ResumeDownload from "../resume/ResumeDownload";
+import MySwiper from "../components/MySwiper"
+
 
 export default function HomePage() {
   const { t } = useLanguage()
@@ -74,36 +78,47 @@ export default function HomePage() {
               </div>
             </div>
             <div className="bg-white rounded-lg p-8 shadow-sm">
-              <div className="aspect-video bg-gradient-to-br from-blue-100 to-indigo-100 rounded-lg flex items-center justify-center">
-                <BookOpen className="h-16 w-16 text-blue-600" />
-              </div>
+            <MySwiper />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="section bg-white">
-        <div className="container">
-          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">{t.ourServices}</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card p-6">
-              <BookOpen className="h-12 w-12 text-blue-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">{t.bookLending}</h3>
-              <p className="text-gray-600">{t.bookLendingDesc}</p>
-            </div>
-            <div className="card p-6">
-              <Calendar className="h-12 w-12 text-blue-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">{t.eventsPrograms}</h3>
-              <p className="text-gray-600">{t.eventsProgramsDesc}</p>
-            </div>
-            <div className="card p-6">
-              <Clock className="h-12 w-12 text-blue-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">{t.studySpaces}</h3>
-              <p className="text-gray-600">{t.studySpacesDesc}</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section className="px-4 py-8">
+  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6">
+    {t.xorazm}
+  </h2>
+
+  <div className="container mx-auto bg-[#eeecec] flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-[250px] max-w-[900px] p-6 rounded-3xl shadow-md">
+
+    {/* Rasm */}
+    <div className="flex-shrink-0">
+      <img className="w-[150px] md:w-[180px] rounded-lg object-cover" src={DirektorImg} alt="Direktor rasmi" />
+    </div>
+
+    {/* Ma'lumotlar */}
+    <div className="text-center md:text-left">
+      <p className="text-xl sm:text-2xl font-semibold mb-4 font-lato">
+        {t.name}
+      </p>
+      <p className="text-lg sm:text-xl font-semibold mb-4 font-lato">
+        <strong>{t.tel}</strong> <a href="tel:+998991666900" className="text-blue-600 hover:underline">{t.num}</a>
+      </p>
+      <div className="text-lg sm:text-xl font-semibold mb-4 font-lato">
+        <strong>{t.rec}</strong>
+        <ul className="list-disc ml-5 text-left mt-1">
+          <li className="mb-1">{t.wed}</li>
+        </ul>
+      </div>
+
+      <div className="mt-4">
+        <ResumeDownload />
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
       <section className="section bg-gray-50">
         <div className="container">
