@@ -15,7 +15,7 @@ const translations = {
     latestNews: "Latest News",
     aboutLibrary: "About Our Library",
     aboutDescription1:
-      "Established in 1952, City Library has been serving our community for over 70 years. We pride ourselves on being more than just a repository of books – we're a hub for learning, creativity, and community engagement.",
+      "Currently, the Bogat District Information and Library Center is located in the building of the District House of Culture.",
     aboutDescription2:
       "Our collection includes over 50,000 books, digital resources, periodicals, and multimedia materials. We offer programs for all ages, from story time for children to book clubs for adults.",
     ourServices: "Our Services",
@@ -70,7 +70,7 @@ const translations = {
     latestNews: "So'nggi Yangiliklar",
     aboutLibrary: "Kutubxonamiz Haqida",
     aboutDescription1:
-      "1952 yilda tashkil etilgan Shahar Kutubxonasi 70 yildan ortiq vaqt davomida jamiyatimizga xizmat ko'rsatib kelmoqda.",
+      "Hozirda Bog’ot tuman Axborot-kutubxona markazi tumandagi Madaniyat uyi binosida joylashgan. ",
     aboutDescription2:
       "Bizning kolleksiyamizda 50,000 dan ortiq kitoblar, raqamli resurslar, davriy nashrlar va multimedia materiallari mavjud.",
     ourServices: "Bizning Xizmatlarimiz",
@@ -124,7 +124,7 @@ const translations = {
     browseBooks: "Просмотр Книг",
     latestNews: "Последние Новости",
     aboutLibrary: "О Нашей Библиотеке",
-    aboutDescription1: "Основанная в 1952 году, Городская Библиотека служит нашему сообществу уже более 70 лет.",
+    aboutDescription1: "В настоящее время Богатинский районный информационно-библиотечный центр располагается в здании районного Дома культуры.",
     aboutDescription2:
       "Наша коллекция включает более 50 000 книг, цифровые ресурсы, периодические издания и мультимедийные материалы.",
     ourServices: "Наши Услуги",
