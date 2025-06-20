@@ -32,7 +32,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section bg-white">
+      {/* <section className="section bg-white">
         <div className="container">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="space-y-2">
@@ -53,7 +53,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="section bg-gray-50">
         <div className="container">
@@ -64,16 +64,16 @@ export default function HomePage() {
               <p className="text-gray-600 mb-6">{t.aboutDescription2}</p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center space-x-2 text-sm">
-                  <Award className="h-4 w-4 text-blue-600" />
-                  <span>Award-winning programs</span>
+                  {/* <Award className="h-4 w-4 text-blue-600" />
+                  <span>Award-winning programs</span> */}
                 </div>
                 <div className="flex items-center space-x-2 text-sm">
-                  <Users className="h-4 w-4 text-blue-600" />
-                  <span>Community focused</span>
+                  {/* <Users className="h-4 w-4 text-blue-600" />
+                  <span>Community focused</span> */}
                 </div>
                 <div className="flex items-center space-x-2 text-sm">
-                  <Wifi className="h-4 w-4 text-blue-600" />
-                  <span>Free Wi-Fi</span>
+                  {/* <Wifi className="h-4 w-4 text-blue-600" />
+                  <span>Free Wi-Fi</span> */}
                 </div>
               </div>
             </div>
@@ -128,15 +128,15 @@ export default function HomePage() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-blue-600 flex-shrink-0" />
-                  <span>123 Main Street, Downtown, City 12345</span>
+                  <span><a href="#">(MFY)</a></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-blue-600 flex-shrink-0" />
-                  <span>(555) 123-4567</span>
+                  <span><a href="tel:+9983151951">+998 315-19-51</a></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="h-5 w-5 text-blue-600 flex-shrink-0" />
-                  <span>info@citylibrary.org</span>
+                  <span><a href="mailto: bogottakm@gmail.com">bogottakm@gmail.com</a></span>
                 </div>
               </div>
             </div>

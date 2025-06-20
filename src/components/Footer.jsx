@@ -8,7 +8,7 @@ export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-8 mt-auto">
       <div className="container text-center">
-        <p>&copy; 2024 City Library. All rights reserved.</p>
+        <p>&copy; 2025 Bog'ot tumani - AKM. Barcha huquqlar himoyalangan. <br /> WebSite Powered by <span className='font-bold'><a href="#">MAX - V</a></span></p>
       </div>
     </footer>
   )

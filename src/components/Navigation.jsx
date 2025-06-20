@@ -7,8 +7,8 @@ import { useLanguage } from "../contexts/LanguageContext";
 import logo from "../assets/logo_web.png";
 
 const languages = [
-  { code: "en", name: "English", flag: "🇺🇸" },
   { code: "uz", name: "O'zbek", flag: "🇺🇿" },
+  { code: "en", name: "English", flag: "🇺🇸" },
   { code: "ru", name: "Русский", flag: "🇷🇺" },
 ];
 
@@ -44,9 +44,8 @@ export default function Navigation() {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
-                  location.pathname === item.path ? "text-blue-600" : "text-gray-600"
-                }`}
+                className={`text-sm font-medium transition-colors hover:text-blue-600 ${location.pathname === item.path ? "text-blue-600" : "text-gray-600"
+                  }`}
               >
                 {item.label}
               </Link>
@@ -74,9 +73,8 @@ export default function Navigation() {
                         setLanguage(lang.code);
                         setShowLanguageMenu(false);
                       }}
-                      className={`w-full text-left px-4 py-2 hover:bg-gray-50 flex items-center space-x-2 first:rounded-t-lg last:rounded-b-lg ${
-                        language === lang.code ? "bg-blue-50 text-blue-600" : ""
-                      }`}
+                      className={`w-full text-left px-4 py-2 hover:bg-gray-50 flex items-center space-x-2 first:rounded-t-lg last:rounded-b-lg ${language === lang.code ? "bg-blue-50 text-blue-600" : ""
+                        }`}
                     >
                       <span>{lang.flag}</span>
                       <span>{lang.name}</span>
@@ -108,9 +106,8 @@ export default function Navigation() {
                         setLanguage(lang.code);
                         setShowLanguageMenu(false);
                       }}
-                      className={`w-full text-left px-3 py-2 hover:bg-gray-50 flex items-center space-x-2 text-sm first:rounded-t-lg last:rounded-b-lg ${
-                        language === lang.code ? "bg-blue-50 text-blue-600" : ""
-                      }`}
+                      className={`w-full text-left px-3 py-2 hover:bg-gray-50 flex items-center space-x-2 text-sm first:rounded-t-lg last:rounded-b-lg ${language === lang.code ? "bg-blue-50 text-blue-600" : ""
+                        }`}
                     >
                       <span>{lang.flag}</span>
                       <span className="truncate">{lang.name}</span>
@@ -138,9 +135,8 @@ export default function Navigation() {
                   key={item.path}
                   to={item.path}
                   onClick={() => setShowMobileMenu(false)}
-                  className={`block text-sm font-medium transition-colors hover:text-blue-600 ${
-                    location.pathname === item.path ? "text-blue-600" : "text-gray-600"
-                  }`}
+                  className={`block text-sm font-medium transition-colors hover:text-blue-600 ${location.pathname === item.path ? "text-blue-600" : "text-gray-600"
+                    }`}
                 >
                   {item.label}
                 </Link>
