@@ -106,49 +106,7 @@ export default function AdminPage() {
       <section className="section">
         <div className="container">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            {/* <div className="card p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-medium text-gray-600">Total Books</p>
-                  <p className="text-2xl font-bold text-gray-900">{books.length}</p>
-                </div>
-                <BookOpen className="h-8 w-8 text-blue-600" />
-              </div>
-            </div>
-
-            <div className="card p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-medium text-gray-600">Available Books</p>
-                  <p className="text-2xl font-bold text-gray-900">
-                    {books.reduce((sum, book) => sum + (book.inStock || 0), 0)}
-                  </p>
-                </div>
-                <BarChart3 className="h-8 w-8 text-green-600" />
-              </div>
-            </div>
-
-            <div className="card p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-medium text-gray-600">News Articles</p>
-                  <p className="text-2xl font-bold text-gray-900">{news.length}</p>
-                </div>
-                <Newspaper className="h-8 w-8 text-blue-600" />
-              </div>
-            </div>
-
-            <div className="card p-6">
-              <div className="flex items-center justify-between">
-                <div>
-                  <p className="text-sm font-medium text-gray-600">Active Members</p>
-                  <p className="text-2xl font-bold text-gray-900">1,247</p>
-                </div>
-                <Users className="h-8 w-8 text-purple-600" />
-              </div>
-            </div> */}
           </div>
-
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card p-8">
               <Newspaper className="h-12 w-12 text-blue-600 mb-4" />
