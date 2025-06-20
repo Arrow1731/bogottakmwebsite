@@ -5,7 +5,7 @@ import { BookOpen, Calendar, Clock, MapPin, Phone, Mail, Users, Award, Wifi } fr
 import { useLanguage } from "../contexts/LanguageContext"
 import Navigation from "../components/Navigation"
 import Footer from "../components/Footer"
-import DirektorImg from "../assets/Direktor_Img.jpg"
+import DirektorImg from "../assets/Direktor_img.jpg"
 import ResumeDownload from "../resume/ResumeDownload";
 import MySwiper from "../components/MySwiper"
 
