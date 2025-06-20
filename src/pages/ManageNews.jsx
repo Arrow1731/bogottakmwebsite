@@ -254,6 +254,8 @@
 // src/pages/ManageNews.jsx
 import { useState } from "react"
 import { useLibrary } from "../contexts/LibraryContext"
+import Navigation from "../components/Navigation";
+
 
 export default function ManageNews() {
   const { news, addNews, deleteNews } = useLibrary()
@@ -281,6 +283,7 @@ export default function ManageNews() {
 
   return (
     <div className="container py-12">
+      <Navigation />
       <h2 className="text-2xl font-bold mb-6">Manage News</h2>
 
       <div className="mb-6 space-y-4">

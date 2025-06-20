@@ -22,10 +22,10 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col">
       <Navigation />
 
-      <section className="py-20 bg-gradient-to-r from-blue-50 to-indigo-50">
+      <section className="header py-20 bg-gradient-to-r to-indigo-50">
         <div className="container text-center">
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">{t.welcomeTitle}</h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">{t.welcomeSubtitle}</p>
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-[#ffffff]">{t.welcomeTitle}</h1>
+          <p className="text-xl text-[#fff] mb-8 max-w-2xl mx-auto">{t.welcomeSubtitle}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/books" className="btn btn-primary">
               {t.browseBooks}
@@ -37,57 +37,32 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* <section className="section bg-white">
-        <div className="container">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-600">50,000+</div>
-              <div className="text-sm text-gray-600">Books Available</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-600">1,200+</div>
-              <div className="text-sm text-gray-600">Active Members</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-600">70+</div>
-              <div className="text-sm text-gray-600">Years of Service</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-3xl font-bold text-blue-600">24/7</div>
-              <div className="text-sm text-gray-600">Digital Access</div>
-            </div>
-          </div>
+      <section className="section bg-gray-50 px-4 py-8 sm:px-6 lg:px-8">
+  <div className="container mx-auto max-w-7xl">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-gray-900">
+          {t.aboutLibrary}
+        </h2>
+        <p className="text-gray-600 mb-4 text-sm sm:text-base md:text-lg max-w-xl">
+          {t.aboutDescription1}
+        </p>
+        <p className="text-gray-600 mb-6 text-sm sm:text-base md:text-lg max-w-xl">
+          {t.aboutDescription2}
+        </p>
+        <div className="flex flex-wrap gap-4">
+          <div className="flex items-center space-x-2 text-sm"></div>
+          <div className="flex items-center space-x-2 text-sm"></div>
+          <div className="flex items-center space-x-2 text-sm"></div>
         </div>
-      </section> */}
+      </div>
+      <div className="bg-white rounded-lg p-4 sm:p-6 shadow-sm">
+        <MySwiper />
+      </div>
+    </div>
+  </div>
+</section>
 
-      <section className="section bg-gray-50">
-        <div className="container">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 text-gray-900">{t.aboutLibrary}</h2>
-              <p className="text-gray-600 mb-4">{t.aboutDescription1}</p>
-              <p className="text-gray-600 mb-6">{t.aboutDescription2}</p>
-              <div className="flex flex-wrap gap-4">
-                <div className="flex items-center space-x-2 text-sm">
-                  {/* <Award className="h-4 w-4 text-blue-600" />
-                  <span>Award-winning programs</span> */}
-                </div>
-                <div className="flex items-center space-x-2 text-sm">
-                  {/* <Users className="h-4 w-4 text-blue-600" />
-                  <span>Community focused</span> */}
-                </div>
-                <div className="flex items-center space-x-2 text-sm">
-                  {/* <Wifi className="h-4 w-4 text-blue-600" />
-                  <span>Free Wi-Fi</span> */}
-                </div>
-              </div>
-            </div>
-            <div className="bg-white rounded-lg p-8 shadow-sm">
-              <MySwiper />
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="px-4 py-8">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6">
