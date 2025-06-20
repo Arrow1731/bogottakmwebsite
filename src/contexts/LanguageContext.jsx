@@ -17,7 +17,7 @@ const translations = {
     aboutDescription1:
       "Currently, the Bogat District Information and Library Center is located in the building of the District House of Culture.",
     aboutDescription2:
-      "Our collection includes over 50,000 books, digital resources, periodicals, and multimedia materials. We offer programs for all ages, from story time for children to book clubs for adults.",
+      "Our collection includes over 96,000 books, digital resources, periodicals, and multimedia materials. We offer programs for all ages, from story time for children to book clubs for adults.",
     ourServices: "Our Services",
     bookLending: "Book Lending",
     bookLendingDesc: "Borrow from our extensive collection of fiction, non-fiction, and reference materials.",
@@ -72,7 +72,7 @@ const translations = {
     aboutDescription1:
       "Hozirda Bog’ot tuman Axborot-kutubxona markazi tumandagi Madaniyat uyi binosida joylashgan. ",
     aboutDescription2:
-      "Bizning kolleksiyamizda 50,000 dan ortiq kitoblar, raqamli resurslar, davriy nashrlar va multimedia materiallari mavjud.",
+      "Bizning kolleksiyamizda 96,000 dan ortiq kitoblar, raqamli fondlar, davriy nashrlar va multimedia materiallari mavjud.",
     ourServices: "Bizning Xizmatlarimiz",
     bookLending: "Kitob Berish",
     bookLendingDesc: "Badiiy, ilmiy va ma'lumotnoma materiallarining keng kolleksiyasidan foydalaning.",
@@ -126,7 +126,7 @@ const translations = {
     aboutLibrary: "О Нашей Библиотеке",
     aboutDescription1: "В настоящее время Богатинский районный информационно-библиотечный центр располагается в здании районного Дома культуры.",
     aboutDescription2:
-      "Наша коллекция включает более 50 000 книг, цифровые ресурсы, периодические издания и мультимедийные материалы.",
+      "Наша коллекция включает более 96 000 книг, цифровые фонды, периодические издания и мультимедийные материалы.",
     ourServices: "Наши Услуги",
     bookLending: "Выдача Книг",
     bookLendingDesc: "Берите из нашей обширной коллекции художественной, научной и справочной литературы.",
