@@ -15,7 +15,7 @@ const translations = {
     latestNews: "Latest News",
     aboutLibrary: "About Our Library",
     aboutDescription1:
-      "Currently, the Bogat District Information and Library Center is located in the building of the District House of Culture.",
+      "Currently, the Bagat District Information and Library Center is located in the building of the District House of Culture.",
     aboutDescription2:
       "Our collection includes over 96,000 books, digital resources, periodicals, and multimedia materials. We offer programs for all ages, from story time for children to book clubs for adults.",
     ourServices: "Our Services",
