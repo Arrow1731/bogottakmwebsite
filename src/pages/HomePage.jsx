@@ -1,13 +1,18 @@
 "use client"
 
-import { Link } from "react-router-dom"
-import { BookOpen, Calendar, Clock, MapPin, Phone, Mail, Users, Award, Wifi } from "lucide-react"
-import { useLanguage } from "../contexts/LanguageContext"
-import Navigation from "../components/Navigation"
-import Footer from "../components/Footer"
-import DirektorImg from "../assets/Direktor_img.jpg"
+import { Link } from "react-router-dom";
+import { BookOpen, Calendar, Clock, MapPin, Phone, Mail, Users, Award, Wifi } from "lucide-react";
+import { useLanguage } from "../contexts/LanguageContext";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
+import DirektorImg from "../assets/Direktor_img.jpg";
 import ResumeDownload from "../resume/ResumeDownload";
-import MySwiper from "../components/MySwiper"
+import MySwiper from "../components/MySwiper";
+import FacebookIcon from '../assets/facebook-brands.svg';
+import InstaIcon from '../assets/instagram-brands.svg';
+import TelegramIcon from '../assets/telegram-brands.svg';
+import YouTubeIcon from '../assets/youtube-brands.svg';
+import TwitterIcon from '../assets/twitter-brands.svg';
 
 
 export default function HomePage() {
@@ -78,45 +83,45 @@ export default function HomePage() {
               </div>
             </div>
             <div className="bg-white rounded-lg p-8 shadow-sm">
-            <MySwiper />
+              <MySwiper />
             </div>
           </div>
         </div>
       </section>
 
       <section className="px-4 py-8">
-  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6">
-    {t.xorazm}
-  </h2>
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-center mb-6">
+          {t.xorazm}
+        </h2>
 
-  <div className="container mx-auto bg-[#eeecec] flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-[250px] max-w-[900px] p-6 rounded-3xl shadow-md">
+        <div className="container mx-auto bg-[#eeecec] flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-[250px] max-w-[900px] p-6 rounded-3xl shadow-md">
 
-    {/* Rasm */}
-    <div className="flex-shrink-0">
-      <img className="w-[150px] md:w-[180px] rounded-lg object-cover" src={DirektorImg} alt="Direktor rasmi" />
-    </div>
+          {/* Rasm */}
+          <div className="flex-shrink-0">
+            <img className="w-[150px] md:w-[180px] rounded-lg object-cover" src={DirektorImg} alt="Direktor rasmi" />
+          </div>
 
-    {/* Ma'lumotlar */}
-    <div className="text-center md:text-left">
-      <p className="text-xl sm:text-2xl font-semibold mb-4 font-lato">
-        {t.name}
-      </p>
-      <p className="text-lg sm:text-xl font-semibold mb-4 font-lato">
-        <strong>{t.tel}</strong> <a href="tel:+998991666900" className="text-blue-600 hover:underline">{t.num}</a>
-      </p>
-      <div className="text-lg sm:text-xl font-semibold mb-4 font-lato">
-        <strong>{t.rec}</strong>
-        <ul className="list-disc ml-5 text-left mt-1">
-          <li className="mb-1">{t.wed}</li>
-        </ul>
-      </div>
+          {/* Ma'lumotlar */}
+          <div className="text-center md:text-left">
+            <p className="text-xl sm:text-2xl font-semibold mb-4 font-lato">
+              {t.name}
+            </p>
+            <p className="text-lg sm:text-xl font-semibold mb-4 font-lato">
+              <strong>{t.tel}</strong> <a href="tel:+998991666900" className="text-blue-600 hover:underline">{t.num}</a>
+            </p>
+            <div className="text-lg sm:text-xl font-semibold mb-4 font-lato">
+              <strong>{t.rec}</strong>
+              <ul className="list-disc ml-5 text-left mt-1">
+                <li className="mb-1">{t.wed}</li>
+              </ul>
+            </div>
 
-      <div className="mt-4">
-        <ResumeDownload />
-      </div>
-    </div>
-  </div>
-</section>
+            <div className="mt-4">
+              <ResumeDownload />
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
@@ -128,7 +133,7 @@ export default function HomePage() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-blue-600 flex-shrink-0" />
-                  <span><a href="#">(MFY)</a></span>
+                  <span><a href="https://maps.app.goo.gl/p5wXFZwSX5m4Xx9Z9" target='_bklank'>Beruniy MFY, O'zbekistan ko'chasi, 11 - uy</a></span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="h-5 w-5 text-blue-600 flex-shrink-0" />
@@ -138,22 +143,31 @@ export default function HomePage() {
                   <Mail className="h-5 w-5 text-blue-600 flex-shrink-0" />
                   <span><a href="mailto: bogottakm@gmail.com">bogottakm@gmail.com</a></span>
                 </div>
+
+                {/* Social Media */}
+
+                <div>
+                  <div className="flex gap-[20px]">
+                    <a href="https://t.me/BogotTAKM" target="_blank"><img className="w-[40px]" src={TelegramIcon} alt="" /></a>
+                    <a href="https://www.facebook.com/Bogottumankutubxona" target="_blank"><img className="w-[40px] " src={FacebookIcon} alt="" /></a>
+                    <a href="https://www.instagram.com/bogot_tuman_kutubxona/" target="_blank"><img className="w-[40px] " src={InstaIcon} alt="" /></a>
+                    <a href="https://www.youtube.com/@bogottumankutubxona" target="_blank"><img className="w-[40px] " src={YouTubeIcon} alt="" /></a>
+                    <a href="https://x.com/Bogot_tuman_AKM" target="_blank"><img className="w-[40px] " src={TwitterIcon} alt="" /></a>
+                  </div>
+                </div>
               </div>
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-4">{t.openingHours}</h3>
               <div className="space-y-2 text-gray-600">
                 <div className="flex justify-between">
-                  <span>Monday - Friday</span>
-                  <span>9:00 AM - 8:00 PM</span>
+                  <span>Dushanbadan - Jumagacha</span>
+                  <span>9:00 - 18:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Saturday</span>
-                  <span>9:00 AM - 6:00 PM</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span>12:00 PM - 5:00 PM</span>
+                  <span>Saturday - Sunday</span>
+                  {/* <span></span> */}
+                  <span>Dam olish kuni</span>
                 </div>
               </div>
             </div>
