@@ -19,7 +19,7 @@ export default function AdminPage() {
     if (credentials.username === "admin" && credentials.password === "library2024") {
       setIsAuthenticated(true)
     } else {
-      alert("Invalid credentials. Use: admin / library2024")
+      alert("Parol xatomi, unda yana urining!!!")
     }
   }
 

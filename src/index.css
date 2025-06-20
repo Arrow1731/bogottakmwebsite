@@ -54,3 +54,10 @@
     overflow: hidden;
   }
 }
+
+.header{
+  background-image: url(../src/assets/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
