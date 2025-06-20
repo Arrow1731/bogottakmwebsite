@@ -31,11 +31,16 @@ export default function Navigation() {
       <div className="container max-w-7xl mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
+          <Link
+            to="/"
+            className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+          >
             <img className="w-[50px] sm:w-[65px]" src={logo} alt="Logo" />
-            <span className="text-lg sm:text-2xl font-bold text-gray-900 whitespace-nowrap">
-              Bog'ot tuman - AKM
-            </span>
+            <div className="px-4 sm:px-8">
+              <span className="text-lg sm:text-2xl font-bold text-gray-900 whitespace-nowrap">
+                Bog'ot tuman - AKM
+              </span>
+            </div>
           </Link>
 
           {/* Desktop nav */}
@@ -44,8 +49,11 @@ export default function Navigation() {
               <Link
                 key={item.path}
                 to={item.path}
-                className={`text-sm font-medium transition-colors hover:text-blue-600 ${location.pathname === item.path ? "text-blue-600" : "text-gray-600"
-                  }`}
+                className={`text-sm font-medium transition-colors hover:text-blue-600 ${
+                  location.pathname === item.path
+                    ? "text-blue-600"
+                    : "text-gray-600"
+                }`}
               >
                 {item.label}
               </Link>
@@ -73,8 +81,9 @@ export default function Navigation() {
                         setLanguage(lang.code);
                         setShowLanguageMenu(false);
                       }}
-                      className={`w-full text-left px-4 py-2 hover:bg-gray-50 flex items-center space-x-2 first:rounded-t-lg last:rounded-b-lg ${language === lang.code ? "bg-blue-50 text-blue-600" : ""
-                        }`}
+                      className={`w-full text-left px-4 py-2 hover:bg-gray-50 flex items-center space-x-2 first:rounded-t-lg last:rounded-b-lg ${
+                        language === lang.code ? "bg-blue-50 text-blue-600" : ""
+                      }`}
                     >
                       <span>{lang.flag}</span>
                       <span>{lang.name}</span>
@@ -106,8 +115,9 @@ export default function Navigation() {
                         setLanguage(lang.code);
                         setShowLanguageMenu(false);
                       }}
-                      className={`w-full text-left px-3 py-2 hover:bg-gray-50 flex items-center space-x-2 text-sm first:rounded-t-lg last:rounded-b-lg ${language === lang.code ? "bg-blue-50 text-blue-600" : ""
-                        }`}
+                      className={`w-full text-left px-3 py-2 hover:bg-gray-50 flex items-center space-x-2 text-sm first:rounded-t-lg last:rounded-b-lg ${
+                        language === lang.code ? "bg-blue-50 text-blue-600" : ""
+                      }`}
                     >
                       <span>{lang.flag}</span>
                       <span className="truncate">{lang.name}</span>
@@ -121,7 +131,11 @@ export default function Navigation() {
               onClick={() => setShowMobileMenu(!showMobileMenu)}
               className="p-2 rounded-lg hover:bg-gray-100"
             >
-              {showMobileMenu ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+              {showMobileMenu ? (
+                <X className="h-5 w-5" />
+              ) : (
+                <Menu className="h-5 w-5" />
+              )}
             </button>
           </div>
         </div>
@@ -135,8 +149,11 @@ export default function Navigation() {
                   key={item.path}
                   to={item.path}
                   onClick={() => setShowMobileMenu(false)}
-                  className={`block text-sm font-medium transition-colors hover:text-blue-600 ${location.pathname === item.path ? "text-blue-600" : "text-gray-600"
-                    }`}
+                  className={`block text-sm font-medium transition-colors hover:text-blue-600 ${
+                    location.pathname === item.path
+                      ? "text-blue-600"
+                      : "text-gray-600"
+                  }`}
                 >
                   {item.label}
                 </Link>

@@ -8,7 +8,7 @@ const translations = {
     news: "News",
     books: "Books",
     admin: "Admin",
-    welcomeTitle: "Welcome to City Library",
+    welcomeTitle: "Welcome to the Bagat District Information Library Center website",
     welcomeSubtitle:
       "Your gateway to knowledge, learning, and community. Discover thousands of books, attend events, and connect with fellow readers.",
     browseBooks: "Browse Books",
@@ -63,7 +63,7 @@ const translations = {
     news: "Yangiliklar",
     books: "Kitoblar",
     admin: "Admin",
-    welcomeTitle: "Shahar Kutubxonasiga Xush Kelibsiz",
+    welcomeTitle: "Bog'ot tumani axborot kutubxona markazi saytiga Xush kelibsiz",
     welcomeSubtitle:
       "Bilim, ta'lim va jamiyat uchun darvozangiz. Minglab kitoblarni kashf eting, tadbirlarda qatnashing va boshqa kitobxonlar bilan bog'laning.",
     browseBooks: "Kitoblarni Ko'rish",
@@ -118,7 +118,7 @@ const translations = {
     news: "Новости",
     books: "Книги",
     admin: "Админ",
-    welcomeTitle: "Добро пожаловать в Городскую Библиотеку",
+    welcomeTitle: "Добро пожаловать на сайт Информационно-библиотечного центра Богат.",
     welcomeSubtitle:
       "Ваш путь к знаниям, обучению и сообществу. Откройте для себя тысячи книг, посещайте мероприятия и общайтесь с другими читателями.",
     browseBooks: "Просмотр Книг",
