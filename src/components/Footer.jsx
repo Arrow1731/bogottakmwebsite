@@ -49,7 +49,7 @@ export default function Footer() {
           <img
             src={Footer_Map}
             alt="Google Map"
-            className="w-full h-auto object-cover container"
+            className="w-full h-auto object-cover container rounded-[30px]"
           />
         </a>
         <div className="bg-gray-800 w-full h-auto -mt-[65px] px-4 py-6">
@@ -60,7 +60,7 @@ export default function Footer() {
               <a href="https://azizbekkamilov.vercel.app/" target="_blank">azizbek1701</a>
             </span> <br />
             <span className="font-bold">
-              <a href="sob1rake.github.io/portfolio/" target="_blank">Sobirjon</a>
+              <a href="https://sob1rjon.vercel.app/" target="_blank">Sobirjon</a>
             </span>
           </p>
         </div>

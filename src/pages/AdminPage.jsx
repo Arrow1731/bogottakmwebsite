@@ -486,11 +486,11 @@ export default function AdminPage() {
               </button>
             </form>
 
-            <div className="mt-6 text-center text-sm text-gray-500">
+            {/* <div className="mt-6 text-center text-sm text-gray-500">
               <p>Demo credentials:</p>
               <p><strong>Username:</strong> admin</p>
               <p><strong>Password:</strong> library2024</p>
-            </div>
+            </div> */}
           </div>
         </div>
         <Footer />
@@ -526,7 +526,7 @@ export default function AdminPage() {
       <section className="section">
         <div className="container">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            <div className="card p-6">
+            {/* <div className="card p-6">
               <div className="flex items-center justify-between">
                 <div>
                   <p className="text-sm font-medium text-gray-600">Total Books</p>
@@ -566,24 +566,22 @@ export default function AdminPage() {
                 </div>
                 <Users className="h-8 w-8 text-purple-600" />
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="card p-8">
               <Newspaper className="h-12 w-12 text-blue-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Manage News</h3>
-              <p className="text-gray-600 mb-4">Add, edit, and delete news articles and announcements.</p>
-              <Link to="/admin/news" className="btn btn-primary">Manage News</Link>
+              <h3 className="text-xl font-semibold mb-2">Yangiliklarni boshqarish</h3>
+              <p className="text-gray-600 mb-4">Yangilik maqolalari va e'lonlarni qo'shish, tahrirlash va o'chirish.</p>
+              <Link to="/admin/news" className="btn btn-primary">Yangiliklarni boshqarish</Link>
             </div>
 
             <div className="card p-8">
               <BookOpen className="h-12 w-12 text-blue-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Manage Books</h3>
-              <p className="text-gray-600 mb-4">
-                Add new books to the catalog, update information, and manage availability.
-              </p>
-              <Link to="/admin/books" className="btn btn-primary">Manage Books</Link>
+              <h3 className="text-xl font-semibold mb-2">Kitoblarni boshqarish</h3>
+              <p className="text-gray-600 mb-4">Katalogga yangi kitoblar qo'shing, ma'lumotlarni yangilang va mavjudligini boshqaring.</p>
+              <Link to="/admin/books" className="btn btn-primary">Kitoblarni boshqarish</Link>
             </div>
           </div>
         </div>
