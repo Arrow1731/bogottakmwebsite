@@ -11,7 +11,7 @@ const translations = {
     admin: "Admin",
 
     // Home page
-    welcomeTitle: "Welcome to City Library",
+    welcomeTitle: "Welcome to the website of the Bogat Information and Library Center.",
     welcomeSubtitle:
       "Your gateway to knowledge, learning, and community. Discover thousands of books, attend events, and connect with fellow readers.",
     browseBooks: "Browse Books",
@@ -147,7 +147,7 @@ const translations = {
     admin: "Admin",
 
     // Home page
-    welcomeTitle: "Shahar Kutubxonasiga Xush Kelibsiz",
+    welcomeTitle: "Bogat axborot-kutubxona markazi veb-saytiga xush kelibsiz.",
     welcomeSubtitle:
       "Bilim, ta'lim va jamiyat uchun darvozangiz. Minglab kitoblarni kashf eting, tadbirlarda qatnashing va boshqa kitobxonlar bilan bog'laning.",
     browseBooks: "Kitoblarni Ko'rish",
@@ -283,7 +283,7 @@ const translations = {
     admin: "Админ",
 
     // Home page
-    welcomeTitle: "Добро пожаловать в Городскую Библиотеку",
+    welcomeTitle: "Добро пожаловать на сайт Информационно-библиотечного центра Богат.",
     welcomeSubtitle:
       "Ваш путь к знаниям, обучению и сообществу. Откройте для себя тысячи книг, посещайте мероприятия и общайтесь с другими читателями.",
     browseBooks: "Просмотр Книг",

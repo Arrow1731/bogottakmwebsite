@@ -25,10 +25,10 @@ export default function Footer() {
             &copy; 2025 Bog'ot tumani - AKM. Barcha huquqlar himoyalangan. <br />
             WebSite Powered by{" "}
             <span className="font-bold">
-              <a href="https://azizbekkamilov.vercel.app/" target="_blank">azizbek1701</a>
+              <a href="https://azizbekkamilov.vercel.app/" target="_blank">AZIZBEK1701</a>
             </span> <br />
             <span className="font-bold">
-              <a href="https://sob1rjon.vercel.app/" target="_blank">Sobirjon</a>
+              <a href="https://sobirjonotajonov.netlify.app/" target="_blank">SOBIRJON</a>
             </span>
           </p>
         </div>
