@@ -8,7 +8,7 @@ const translations = {
     news: "News",
     books: "Books",
     admin: "Admin",
-    welcomeTitle: "Welcome to the Bagat District Information Library Center website",
+    welcomeTitle: "Welcome to the Bogat District Information Library Center",
     welcomeSubtitle:
       "Your gateway to knowledge, learning, and community. Discover thousands of books, attend events, and connect with fellow readers.",
     browseBooks: "Browse Books",
@@ -118,7 +118,7 @@ const translations = {
     news: "News",
     books: "Books",
     admin: "Admin",
-    welcomeTitle: "Welcome to City Library",
+    welcomeTitle: "Welcome to the Bogat District Information Library Center",
     welcomeSubtitle:
       "Your gateway to knowledge, learning, and community. Discover thousands of books, attend events, and connect with fellow readers.",
     browseBooks: "Browse Books",
@@ -173,7 +173,7 @@ const translations = {
     news: "Новости",
     books: "Книги",
     admin: "Админ",
-    welcomeTitle: "Добро пожаловать на сайт Информационно-библиотечного центра Богат.",
+    welcomeTitle: "Добро пожаловать в Информационно-библиотечный центр округа Богат",
     welcomeSubtitle:
       "Ваш путь к знаниям, обучению и сообществу. Откройте для себя тысячи книг, посещайте мероприятия и общайтесь с другими читателями.",
     browseBooks: "Просмотр Книг",
