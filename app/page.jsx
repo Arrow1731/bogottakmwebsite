@@ -113,6 +113,16 @@ export default function HomePage() {
         </div>
       </section>
 
+            <div>
+              <h2>SAytni Faoliyati uchun Mas'ul shaxs</h2>
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3">
+                  <Users className="h-5 w-5 text-primary flex-shrink-0" />
+                  <span>Roxmonova Zulfizar</span>
+                </div>
+              </div>
+            </div>
+
       {/* Contact Section */}
       <section className="py-16 bg-muted/50">
         <div className="container mx-auto px-4">
